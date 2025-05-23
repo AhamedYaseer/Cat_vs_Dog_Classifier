@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = load_model(r'C:\Users\DELL\Downloads\Cat_vs_Dog.h5')
+model = load_model(r'D:\Projects\DogVsCat\Cat_vs_Dog.h5')
 
 # Function to process the img and make predictions
 def predict_image(img):
